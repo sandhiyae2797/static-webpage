@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff0f9;
+  color: black;
+}
+header {
+  background: #ff5f97;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}   
+h1 {
+  font-size:40px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+p {
+  font-style: italic;
+  font-size:20px;
+  margin-bottom: 30px;
+}
+nav {
+  background: #ffe0eb;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 0 20px;
+  text-decoration: wavy;
+  color: #ff5fa2;
+  font-weight: bold;
+}
+.Beauty {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff5fa;
+}
+.Beauty h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.services {
+  padding: 30px 20px;
+  text-align: center;
+}
+.services h2 {
+  margin-bottom: 20px;
+}
+.service-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.service {
+  background: rgb(255, 255, 255);
+  border: 1px solid #ffd6e7;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ff5fa2;
+  color: white;
+  margin-top: 50px;
+}
